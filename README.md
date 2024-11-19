@@ -18,12 +18,18 @@ A mobile app would be the best option for this project since most people have ac
 ![Photo](transport-time.png)
 
 ## Data sources and AI methods
-The data would vary depending on the country or region. Likely data sources include:
+### The data would vary depending on the country or region. Likely data sources include:
 * Weather forecasts for the day.
 * Usual busyness of public transport use at specific times.
 * Special events or occasions from news and other sources (holidays, concerts, local events, etc.)
 * Google Map API for showing map and planning route direction
-
+### Ai methods:
+* Natural language processing - Process unstructured data from news, social media, or traffic updates to detect events affecting bus timings (e.g., concerts, accidents)
+*  Machine Learning for Time Series Forecasting -methods such as linear regression and desicion trees can learn patterns from historical data (e.g., past bus delays based on weather, traffic, and events) and predict future outcomes.
+*  Reinforcement learning - Model real-time decisions by simulating bus routes and traffic conditions.
+*  Clustering and Anomaly Detection -Group bus routes by similarities in delay patterns (e.g., routes with heavy traffic vs. routes with fewer delays).
+*  Bayesian Models - Use probabilistic models to incorporate uncertainty in predictions.
+  
 ## Challenges
 
 Some countries might face difficulties due to limited smartphone access or a lack of reliable data. Ensuring data accuracy and availability would also be a significant challenge.
